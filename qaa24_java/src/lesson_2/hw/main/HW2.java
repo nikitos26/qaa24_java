@@ -7,13 +7,13 @@ import java.util.Scanner;
 //     При решении используйте оператор if-else-if
 
 public class HW2 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите номер месяца что бы узнать пору года -> ");
         int mounth = scanner.nextInt();
 
-        if (mounth<3 || mounth==12){
+        if (mounth < 3 || mounth == 12) {
             System.out.println("Пора года: Зима");
         } else if (2 < mounth && mounth < 6) {
             System.out.println("Пора года: Весна");

@@ -4,8 +4,8 @@ package lesson_2.hw.main;
 //        При решении используйте операцию декремента (--)
 
 public class HW9 {
-    public static void main (String[] arg){
-        for (int i=5; i >= 1; i--){
+    public static void main(String[] arg) {
+        for (int i = 5; i >= 1; i--) {
             System.out.print(" " + i);
         }
     }

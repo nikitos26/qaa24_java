@@ -4,8 +4,8 @@ package lesson_2.hw.main;
 //        При решении используйте операцию инкремента (++)
 
 public class HW8 {
-    public static void main (String[] arg){
-        for(int i = 1; i <= 99; i+=2){
+    public static void main(String[] arg) {
+        for (int i = 1; i <= 99; i += 2) {
             System.out.print(" " + i);
         }
     }

@@ -6,13 +6,13 @@ import java.util.Scanner;
 //  При решении используйте оператор switch-case
 
 public class HW1 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите номер месяца что бы узнать пору года -> ");
         int mounth = scanner.nextInt();
 
-        switch (mounth){
+        switch (mounth) {
             case 12:
             case 1:
             case 2:

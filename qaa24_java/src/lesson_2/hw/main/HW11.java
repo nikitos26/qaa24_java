@@ -4,9 +4,9 @@ package lesson_2.hw.main;
 //  В решении используйте цикл while.
 
 public class HW11 {
-    public static void main (String[] arg){
+    public static void main(String[] arg) {
         int i = 7;
-        while (i<=98){
+        while (i <= 98) {
             System.out.print(" " + i);
             i += 7;
         }

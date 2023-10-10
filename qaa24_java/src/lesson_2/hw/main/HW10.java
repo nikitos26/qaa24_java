@@ -6,7 +6,7 @@ package lesson_2.hw.main;
 import java.util.Scanner;
 
 public class HW10 {
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите любое целое положительное числ -> ");

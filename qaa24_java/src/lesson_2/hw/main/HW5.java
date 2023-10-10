@@ -6,7 +6,7 @@ import java.util.Scanner;
 // По введенному номеру определить цвет радуги (1 – красный, 4 – зеленый и т. д.)
 
 public class HW5 {
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите номер цвета радуги -> ");

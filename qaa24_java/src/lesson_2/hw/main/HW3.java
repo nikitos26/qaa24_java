@@ -7,17 +7,17 @@ package lesson_2.hw.main;
 import java.util.Scanner;
 
 public class HW3 {
-    public static void main (String[] arg){
+    public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите свое любое число -> ");
 
         int number = scanner.nextInt();
 
-        if (number==0){
+        if (number == 0) {
             System.out.print("Вы ввели 0. Введите другое число.");
-        } else if (number% 2==0) {
-            System.out.print("Число "  + number + " четное.");
+        } else if (number % 2 == 0) {
+            System.out.print("Число " + number + " четное.");
         } else {
             System.out.print("Число " + number + " нечетное.");
         }
