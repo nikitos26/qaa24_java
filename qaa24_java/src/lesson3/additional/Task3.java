@@ -7,7 +7,7 @@ package lesson3.additional;
 import java.util.Arrays;
 
 public class Task3 {
-    public static void  main(String[]arg){
+    public static void main(String[] arg) {
         String[] names = {"Оля", "Никита", "Варя", "Андрей", "Аня", "Саша"};
         // Сортируем массив
         Arrays.sort(names);
